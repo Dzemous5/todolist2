@@ -1,0 +1,123 @@
+@import "./variables/variables";
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    // background-color: aqua;    
+}
+
+
+header{
+    width: 100%;
+    min-height: 10%;
+    height: 10%;
+    background-color: #000000;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.5em;
+    @include centering(center, center)
+}
+
+.wpisywarka{
+    width: 100%;
+    min-height: 15%;
+    // background-color: blueviolet;
+    flex-direction: row;
+    @include centering(center, center);
+    // flex-direction: column;
+    border: 2px solid black;
+}
+
+
+#pole {
+    width: 50%;
+    min-height: 4rem;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 0.8rem 0 0 0.8rem ;
+    border-right: 0.1rem solid black;
+    padding: 0 1rem 0 1rem;
+}
+#btn{
+    width: 10%;
+    min-height: 4rem;
+    height: auto;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #ffee00;
+    border: 2px solid black;
+    border-radius: 0 0.8rem 0.8rem 0;
+    border-left: none;    
+}
+
+
+main{
+    padding: 2rem 0 2rem 0;
+    width: 100%;
+    min-height: 70%;
+    background-color: #93827f;
+    @include centering(flex-start, center);
+    flex-direction: column;
+    overflow-y: scroll;
+
+    .divMain{
+        margin: 2rem 0 1rem 0;
+        display: flex;
+        flex-direction: row;
+        border: 2px solid black;
+        background-color: white;
+        width: 75%;
+        max-width: 75%;
+        min-height: 4rem;
+        height: auto;
+        border-radius: 1.2rem;
+        
+        .divLeft{
+            @include centering(center, center);
+            background-color: black;
+            color: #ffee00;
+            width: 10%;
+            max-width: 10%;
+            // min-height: 100%;
+            height: auto;
+            border-radius: 1rem 0 0 1rem;
+        }
+        .divRight{
+            @include centering(flex-start, center);
+            width: 90%;
+            max-width: 90%;
+            // min-height: 100%;
+            height: auto;
+            padding: 0.5rem 0.5rem 1rem 1.2rem;
+            border-radius: 0 1rem 1rem 0;
+            word-break: break-all;
+        }
+
+    }
+}
+
+footer{
+    border-top: 2px solid black;
+    width: 100%;
+    min-height: 5%;
+    color: #ffffff;
+    background-color: #000000;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+    @include centering(center, center);
+    font-weight: bold;
+
+    a{
+         all: unset;
+         margin-left: 4px;
+         cursor: pointer;
+    }
+}

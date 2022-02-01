@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+}
+
+header {
+  width: 100%;
+  min-height: 10%;
+  height: 10%;
+  background-color: #000000;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wpisywarka {
+  width: 100%;
+  min-height: 15%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 2px solid black;
+}
+
+#pole {
+  width: 50%;
+  min-height: 4rem;
+  height: auto;
+  border: 2px solid black;
+  border-radius: 0.8rem 0 0 0.8rem;
+  border-right: 0.1rem solid black;
+  padding: 0 1rem 0 1rem;
+}
+
+#btn {
+  width: 10%;
+  min-height: 4rem;
+  height: auto;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: #ffee00;
+  border: 2px solid black;
+  border-radius: 0 0.8rem 0.8rem 0;
+  border-left: none;
+}
+
+main {
+  padding: 2rem 0 2rem 0;
+  width: 100%;
+  min-height: 70%;
+  background-color: #93827f;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  overflow-y: scroll;
+}
+
+main .divMain {
+  margin: 2rem 0 1rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  border: 2px solid black;
+  background-color: white;
+  width: 75%;
+  max-width: 75%;
+  min-height: 4rem;
+  height: auto;
+  border-radius: 1.2rem;
+}
+
+main .divMain .divLeft {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: black;
+  color: #ffee00;
+  width: 10%;
+  max-width: 10%;
+  height: auto;
+  border-radius: 1rem 0 0 1rem;
+}
+
+main .divMain .divRight {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90%;
+  max-width: 90%;
+  height: auto;
+  padding: 0.5rem 0.5rem 1rem 1.2rem;
+  border-radius: 0 1rem 1rem 0;
+  word-break: break-all;
+}
+
+footer {
+  border-top: 2px solid black;
+  width: 100%;
+  min-height: 5%;
+  color: #ffffff;
+  background-color: #000000;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 2px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: bold;
+}
+
+footer a {
+  all: unset;
+  margin-left: 4px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,5 @@
+@mixin centering($OX, $OY) {
+    display: flex;
+    justify-content: $OX;
+    align-items: $OY;
+}
